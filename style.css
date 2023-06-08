@@ -69,8 +69,14 @@ main {
     font-size: 24px;
 }
 
-@media(max-width:350px) {
-    main {}
+@media(max-width:840px) {
+
+    main {
+        padding: 20px 0;
+        grid-template-areas: "first" "second" "third" "fourth" "fifth";
+        width: 85%;
+
+    }
 }
 
 .user {
